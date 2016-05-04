@@ -3,9 +3,6 @@ package com.darkrain.app.frame;
 import javax.swing.*;
 import java.awt.*;
 
-/**
- * Created by laurentc on 22/04/15.
- */
 public class MainFrame extends JFrame {
 
     public MainFrame()

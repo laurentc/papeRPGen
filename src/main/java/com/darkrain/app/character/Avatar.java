@@ -12,7 +12,7 @@ public class Avatar extends AbstractCharacter{
     public static final int MAX_ITEMS = 8;
     public static final int MAX_HERBS = 6;
     public static final int MAX_WEAPONS = 2;
-    public static final int STARTstamina_ADD = 20;
+    public static final int START_STAMINA_ADD = 20;
     public static final int START_FITNESS_ADD = 10;
     public static final int START_WILL_ADD = 20;
     
@@ -29,7 +29,7 @@ public class Avatar extends AbstractCharacter{
     
     public Avatar() {
         fitness = Dice.roll() + START_FITNESS_ADD;
-        stamina = Dice.roll() + STARTstamina_ADD;
+        stamina = Dice.roll() + START_STAMINA_ADD;
         will = Dice.roll() + START_WILL_ADD;
     }
 

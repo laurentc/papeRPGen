@@ -2,9 +2,6 @@ package com.darkrain.app.core;
 
 import java.util.HashMap;
 
-/**
- * Created by laurentc on 16/04/15.
- */
 public class Rule {
     public static final int AVATAR_INDEX = 0;
     public static final int ENEMY_INDEX = 1;
